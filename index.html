@@ -29,18 +29,27 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                  <li><a href="#me">Me</a></li>
-                  <li><a href="#webdeveloper" class="remove-hash">Web Developer</a></li>
-                  <li><a href="#graphicdesigner">Graphic Designer</a></li>
-                  <li><a href="#myportfolio">Portfolio</a></li>
-                  <li><a href="#contact">Contact me</a></li>
-                  <li><a href="https://salv997.github.io/mylinks">My links</a></li>
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#sicilia" class="remove-hash">Perchè la Sicilia</a></li>
+                  <li><a href="#perchi">Per chi è pensato</a></li>
+                  <li><a href="#processo">Di cosa si tratta</a></li>
+                  <li><a href="#pacchetti">Pacchetti</a></li>
+                  <li><a href="#contattami">Contattami</a></li>
                 </ul>
               </div>
         </div>
     </nav>
+    <script>
+        function hideMenu(){
+            let menuOpen = document.querySelector('.toggler').checked;
+            if(menuOpen = true){
+                document.querySelector('.toggler').checked = false;
+            }
+        }
+        window.addEventListener("scroll", hideMenu);
+    </script>
 
-    <header>
+    <header id="header">
         <div class="lefthead">
             <div class="benvenuto">
                 <h2>
@@ -67,7 +76,7 @@
             <img src="imgs/SICILYbig.png" alt="sicilia">
         </div>
     </header>
-    <section class="sicilia">
+    <section class="sicilia" id="sicilia">
         <div class="left">
             <h1>
                 Perchè la Sicilia
@@ -85,10 +94,11 @@
             </p>
         </div>
         <div class="right">
-            <img src="imgs/SICILYbig.png">
+            <img src="imgs/SICILYbig.png" alt="sicily">
         </div>
     </section>
-    <section class="esigenze">
+
+    <section class="esigenze" id="perchi">
         <h1>
             Per chi è pensato
         </h1>
@@ -111,7 +121,7 @@
             </div>
         </div>
     </section>
-    <section class="process">
+    <section class="process" id="processo">
         <div class="left">
             <h1>
                 Di cosa si tratta
@@ -186,7 +196,7 @@
             </div>
         </div>
     </section>
-    <section class="pacchetti">
+    <section class="pacchetti" id="pacchetti">
         <h1>Soluzioni per tutte le esigenze</h1>
         <div class="cards">
             <div class="card">
@@ -392,7 +402,7 @@
             </div>
         </div>
     </section>
-    <section class="contatti">
+    <section class="contatti" id="contattami">
         <h1>
             Contatta per maggiori informazioni
         </h1>
