@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sicily Web Project | Home</title>
+    <title>Sicily Web Project | by Salv997</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="imgs/SICILYlogo.svg" type="image/svg+xml">    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <meta name="keywords" content="Web Design, Web Developer, Sicily, ristorante, bar, hotel, spa, sicilia, italia">
+    <meta name="keywords" content="Web Design, Web Developer, Sicily, ristorante, bar, hotel, spa, sicilia, italia, sito web">
     <meta name="author" content="Salv997">
     <meta name="description" content="Benvenuto su Sicily Web Project. Il progetto di digitalizzazione della Sicilia realizzato da Salv997">
     <script src="https://kit.fontawesome.com/238170af42.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8KLK1KFRFS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8KLK1KFRFS');
+    </script>
 </head>
 <body>
     <nav>
@@ -67,8 +76,8 @@
             <div class="pulsanti">
                 <p>Sei interessato al progetto?</p>
                 <div class="bottoni">
-                    <button type="button" class="button">scopri di più</button>
-                    <button type="button" class="button">offerte</button>
+                    <a href="#sicilia"><button type="button" class="button">scopri di più</button></a>
+                    <a href="#pacchetti"><button type="button" class="button2">offerte</button></a>
                 </div>
             </div>
         </div>
@@ -262,9 +271,11 @@
                         </span>
                     </div>
                 </div>
-                <div class="preventivo">
-                    <h3>Preventivo</h3>
-                </div>
+                <a href="#contattami">
+                    <div class="preventivo">
+                        <h3>Richiedi</h3>
+                    </div>
+                </a>
             </div>
             <div class="card due">
                 <div class="name">
@@ -329,9 +340,11 @@
                         </span>
                     </div>
                 </div>
-                <div class="preventivo">
-                    <h3>Preventivo</h3>
-                </div>
+                <a href="#contattami">
+                    <div class="preventivo">
+                        <h3>Richiedi</h3>
+                    </div>
+                </a>
             </div>
             <div class="card tre">
                 <div class="name">
@@ -396,9 +409,11 @@
                         </span>
                     </div>
                 </div>
-                <div class="preventivo">
-                    <h3>Preventivo</h3>
-                </div>
+                <a href="#contattami">
+                    <div class="preventivo">
+                        <h3>Richiedi</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -422,7 +437,7 @@
                 </div>
             </div>
             <div class="right">
-                <form action="https://formspree.io/f/mdobjqlk" method="POST">
+                <form action="https://formspree.io/f/mjvzbbga" method="POST">
                     <label class="input-container">
                         <input type="text" name="name" tabindex="1" class="input" placeholder="Il tuo nome" required>
                     </label>
