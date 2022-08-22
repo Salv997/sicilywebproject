@@ -214,6 +214,7 @@ header .lefthead .button{
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 7px;
 }
 header .lefthead .button2{
     height: 3rem;
@@ -225,6 +226,7 @@ header .lefthead .button2{
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 7px;
 }
 .sicilia{
     display: flex;
