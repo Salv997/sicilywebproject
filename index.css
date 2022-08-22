@@ -692,17 +692,15 @@ a{
         border: 2px solid var(--color-1);
         border-radius: 7px;
     }
-
-
-.about{
-    padding: 5rem 1rem;
-}
-.about .sudime{
-    display: flex;
-    gap: 3rem;
-    flex-direction: column;
-}
-.about .sudime .right{
-    width: 100%;
-}
+    .about{
+        padding: 5rem 1rem;
+    }
+    .about .sudime{
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .about .sudime .right{
+        width: 100%;
+    }
 }
