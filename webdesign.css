@@ -212,7 +212,7 @@ main .lft{
 main .rght{
     height: auto;
     width: 100%;
-    background-image: url(/imgs/webdesign.jpg);
+    background-image: url(imgs/webdesign.jpg);
     background-position: -700px center;
     background-size: cover;
     background-repeat: no-repeat;
