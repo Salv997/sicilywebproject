@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Servizi | Sicily Web Project</title>
+    <link rel="stylesheet" href="servizi.css">
+    <link rel="icon" href="imgs/SICILYlogo.svg" type="image/svg+xml">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Web Design, Web Developer, Sicily, ristorante, bar, hotel, spa, sicilia, italia, sito web">
+    <meta name="author" content="Salv997">
+    <meta name="description" content="Benvenuto su Sicily Web Project. Il progetto di digitalizzazione della Sicilia realizzato da Salv997">
+    <script src="https://kit.fontawesome.com/238170af42.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8KLK1KFRFS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8KLK1KFRFS');
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="https://salv997.github.io/sicilywebproject">
+        <div class="logo">
+            <img src="imgs/SICILYlogo.svg" alt="logo sicilia">
+            <div class="title">
+                <span>Sicily</span>
+                Web Project
+            </div>
+        </div>
+        </a>
+        <div class="menu">
+            <div id="menuToggle">
+                <input title="menu" class="toggler" type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#sicilia" class="remove-hash">Perchè la Sicilia</a></li>
+                  <li><a href="#perchi">Per chi è pensato</a></li>
+                  <li><a href="#processo">Di cosa si tratta</a></li>
+                  <li><a href="#pacchetti">Pacchetti</a></li>
+                  <li><a href="#contattami">Contattami</a></li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <script>
+        function hideMenu(){
+            let menuOpen = document.querySelector('.toggler').checked;
+            if(menuOpen = true){
+                document.querySelector('.toggler').checked = false;
+            }
+        }
+        window.addEventListener("scroll", hideMenu);
+    </script>
+
+    <header>
+        <h1><span>Servizi base</span> & <span>extra</span></h1>
+        <h2>Scopri tutti i servizi offerti</h2>
+    </header>
+    <section class="legenda">
+        <div class="element">
+            <div class="circle" id="basic"></div>
+            <p>= piano basic</p>
+        </div>
+        <div class="element">
+            <div class="circle" id="regular"></div>
+            <p>= piano regular</p>
+        </div>
+        <div class="element">
+            <div class="circle" id="premium"></div>
+            <p>= piano regular</p>
+        </div>
+    </section>
+<main>
+
+    <section class="webdesign">
+        <div class="cont1">
+            <h1>Web Design</h1>
+            <div class="card responsive">
+                <div class="titolo">
+                    <h2>Design Responsivo</h2>
+                    <div class="cerchi">
+                        <div class="circle" id="basic"></div>
+                        <div class="circle" id="regular"></div>
+                        <div class="circle" id="premium"></div>
+                    </div>
+                </div>
+                <p>
+                    Viene realizzato in Figma (o Adobe Xd in base alle esigenze),
+                    il design del sito web. Il design sarà responsivo, dunque
+                    pensato per essere adatto a qualsiasi tipo di dispositivo,
+                    quindi PC, smartphone e tablet. Una volta approvata la bozza
+                    e realizzato il design finale, sarà possibile richiedere e 
+                    ricevere il file contenente il prodotto finito.
+                </p>
+            </div>
+            <div class="card responsive">
+                <div class="titolo">
+                    <h2>Photo Editing</h2>
+                    <div class="cerchi">
+                        <div class="circle" id="basic"></div>
+                        <div class="circle" id="regular"></div>
+                        <div class="circle" id="premium"></div>
+                    </div>
+                </div>
+                <p>
+                    Il Photo Editing è un servizio compreso nei pacchetti regular e 
+                    premium. Consiste nel fotoritocco digitale di immagini e foto
+                    che diventeranno parte del sito web. Le modifiche saranno
+                    effettuate utilizzando Adobe Photoshop (se si tratta di PNG, JPG o
+                    simili) ed in Adobe Illustrator (se si tratta di SVG).
+                </p>
+            </div>
+            <div class="card foto">
+                <div class="titolo">
+                    <h2>Servizio fotografico</h2>
+                    <div class="cerchi">
+                        <div class="circle" id="basic"></div>
+                        <div class="circle" id="regular"></div>
+                        <div class="circle" id="premium"></div>
+                    </div>
+                </div>
+                <p>
+                    Nel pacchetto premium è compreso il servizio fotografico 
+                    e la ricerca delle immagini.<br>Il servizio fotografico
+                    consiste nello scatto di foto e nella registrazione di 
+                    brevi video studiati su misura per essere inseriti all'interno
+                    delle pagine web.<br>La ricerca di immagini consiste nel
+                    trovare foto e video "stock" (realizzati da altre persone e 
+                    messe a disposizione online).
+                </p>
+            </div>
+        </div>
+        <div class="image"></div>
+    </section>
+
+    <section class="webdeveloping">
+        <div class="image"></div>
+        <div class="cont1">
+        <h1>Web Developing</h1>
+        <div class="card html">
+            <div class="titolo">
+                <h2>Programmazione HTML</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                A partire dal design realizzato precedentemente, si procede
+                alla scrittura della pagina web in codice HTML, CSS e JavaScript.
+                <br>Questi sono linguaggi necessari affinchè i browser (come Google
+                Chrome, Safari e Firefox) possano mostrare il sito web ai visitatori.
+            </p>
+        </div>
+        <div class="card seo">
+            <div class="titolo">
+                <h2>Ottimizzazione SEO</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                I siti web realizzati per il Sicily Web Project sono SEO optimized,
+                dunque sono ottimizzati per poter essere trovati dai motori di ricerca
+                (come ad esempio Google e Bing) ed essere visualizzati tra i primi risultati.<br>
+                Inoltre vi verrà fornito l'accesso a Google Analytics per monitorare il numero
+                di visite al vostro sito e Google Search Console, per visualizzare come i vari 
+                utenti vi trovano tramite google (quali parole chiave).
+            </p>
+        </div>
+        <div class="card dominio">
+            <div class="titolo">
+                <h2>Pubblicazione su dominio</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Per poter avere un proprio sito internet è necessario acquistare un dominio web 
+                (es. https://www.sitoweb.it) e caricare i file HTML all'interno del server del
+                proprio dominio. Per evitare che venga visualizzato come "non sicuro" è inoltre 
+                necessario fornire un certificato SSL in modo da segnalare al browser che il 
+                sito web è sicuro da visitare.
+            </p>
+        </div>
+        <div class="card animazioni">
+            <div class="titolo">
+                <h2>Animazioni</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Nei piani regular e premium è compreso lo sviluppo di animazioni per
+                le proprie pagine web. Questo genere di animazioni sono pensate per
+                rendere più visivamente piacevole la navigazione delle pagine web.
+            </p>
+        </div>
+        <div class="card aggiornamenti">
+            <div class="titolo">
+                <h2>Aggiornamento contenuti</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Con i piani regular e premium sono compresi gli aggiornamenti dei
+                contenuti del proprio sito internet su richiesta.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="advert">
+        <div class="cont1">
+        <h1>Advertising</h1>
+        <div class="card creazione">
+            <div class="titolo">
+                <h2>Creazione campagne Ad</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Nel piano premium, su richiesta, è possibile avere la creazione
+                di campagne pubblicitarie su social network (Facebook Ads e TikTok Ads)
+                e su internet (Google AdSense). Questo servizio comprende l'impostazione
+                della campagna pubblicitaria e la modifica del target di utenza per
+                ottimizzare le visite (i costi della campagna pubblicitaria non sono 
+                compresi, ma sono a carico del cliente).
+            </p>
+        </div>
+        <div class="card grafica">
+            <div class="titolo">
+                <h2>Grafica Ad</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Se si sceglie di avere una campagna pubblicitaria online, nel piano 
+                premium è compreso il lavoro grafico che andrà a costituire l'Ad.
+                <br>Verrà sviluppata una grafica accattivante ed in grado di attirare 
+                l'attenzione, in modo da aumentare le visite tramite le pubblicità.
+            </p>
+        </div>
+        <div class="card social">
+            <div class="titolo">
+                <h2>Grafica Social</h2>
+                <div class="cerchi">
+                    <div class="circle" id="basic"></div>
+                    <div class="circle" id="regular"></div>
+                    <div class="circle" id="premium"></div>
+                </div>
+            </div>
+            <p>
+                Nel piano premium è compresa la grafica per i social network.<br>
+                Si tratta di un lavoro grafico riutilizzabile da usare come base per
+                i post e per le storie sui più popolari social network 
+                (Instagram e Facebook).
+            </p>
+        </div>
+        </div>
+        <div class="image"></div>
+    </section>
+</main>
+<footer>
+    <section class="about">
+        <h1>
+            Su di me
+        </h1>
+        <div class="sudime">
+            <div class="left">
+                <p>
+                    Sono Salvuccio Montagno e sono un Web Designer e Web Developer Freelancer.<br>
+                    Sono il fondatore del progetto Sicily Web Project, il progetto dedicato alla creazione e la messa online dei siti web per le aziende e attività siciliane.<br>
+                    Vieni a trovarmi nella mia pagina personale <a href="https://salv997.github.io">qui</a>
+                </p>
+            </div>
+            <div class="right">
+                <p>Vuoi contattarmi?</p>
+                <p>Mi trovi su questi siti:</p>
+                <div class="icone">
+                    <a href="https://www.instagram.com/salv_997/" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salv997" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Salv997/" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</body>
+</html>
