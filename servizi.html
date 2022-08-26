@@ -281,29 +281,72 @@
         </div>
         </div>
         <div class="image"></div>
-    </section>
+    </section>    
 </main>
-<div class="extra">
-    <h1>Servizi extra</h1>
-    <div class="carte">
-    <div class="carta newsletter">
-        <i class="fa-solid fa-envelope-open-text"></i>
-        <p>Gestione Newsletter</p>
+    <div class="extra">
+        <h1>Servizi extra</h1>
+        <div class="carte">
+        <div class="carta newsletter">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            <p>Gestione Newsletter</p>
+        </div>
+        <div class="carta server">
+            <i class="fa-solid fa-server"></i>
+            <p>Gestione server e dominio</p>
+        </div>
+        <div class="carta dinamici">
+            <i class="fa-brands fa-react"></i>
+            <p>Contenuti dinamici</p>
+        </div>
+        <div class="carta newsletter">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>e-Commerce</p>
+        </div>
+        </div>
     </div>
-    <div class="carta server">
-        <i class="fa-solid fa-server"></i>
-        <p>Gestione server e dominio</p>
+    <div class="prenota">
+        <h1>Richiedi il servizio</h1>
+        <div class="contenuto">
+        <div class="left">
+            <p>Compila il form per selezionare i servizi a cui sei interessato 
+                e richiedere un preventivo gratuito.<br>
+                Preferisci contattarmi tramite social network? Scrivimi su 
+                <a href="">Instagram</a> o <a href="">LinkedIn</a>.<br><br><br>
+                I dati inseriti verranno utilizzati esclusivamente per essere
+                ricevere le informazioni richieste.
+            </p>
+        </div>
+        <div class="right">
+        <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mdojklbk" method="post">
+            <fieldset id="fs-frm-inputs">
+              <input type="text" name="name" id="full-name" placeholder="Il tuo nome/della tua attività" required="">
+              <input type="email" name="_replyto" id="email-address" placeholder="La tua e-mail" required="">
+              <fieldset id="fs-frm-selects">
+                <label for="timely">A quale pacchetto sei interessato?</label>
+                <select name="timely" id="timely" required="">
+                  <option value="" selected="" disabled=""></option>
+                  <option value="1">Pacchetto Smart</option>
+                  <option value="3">Pacchetto Regular</option>
+                  <option value="5">Pacchetto premium</option>
+                </select>
+                <label for="timely">Sei interessato ad un servizio extra?</label>
+                <select name="quality" id="quality" required="">
+                  <option value="" selected="" disabled=""></option>
+                  <option value="1">Gestione Newsletter</option>
+                  <option value="3">Gestione server e dominio</option>
+                  <option value="5">Contenuti dinamici</option>
+                  <option value="7">e-Commerce</option>
+                </select>
+              </fieldset>
+              <textarea rows="3" name="message" id="message" placeholder="Dubbi o richieste? Inseriscili qui, sarò felice di rispondere" required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+            </fieldset>
+            <input id="btn" type="submit" value="Invia">
+        </form>
+        </div>
+        </div>
     </div>
-    <div class="carta dinamici">
-        <i class="fa-brands fa-react"></i>
-        <p>Contenuti dinamici</p>
-    </div>
-    <div class="carta newsletter">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <p>e-Commerce</p>
-    </div>
-    </div>
-</div>
+
 <footer>
     <section class="about">
         <h1>
