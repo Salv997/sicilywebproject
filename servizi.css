@@ -201,7 +201,7 @@ header h2{
     max-width: 17px;
     max-width: 17px;
     border-radius: 100%;
-    border: 1.5px solid var(--color-1);
+    border: 1px solid var(--color-1);
 }
 #basic{
     background-color: var(--color-5);
@@ -348,6 +348,7 @@ section #adv{
 }
 .prenota .contenuto{
     display: flex;
+    gap: 1.5rem;
 }
 .prenota .contenuto .left a{
     color: var(--color-3);
@@ -368,7 +369,7 @@ section #adv{
     padding: 0.8rem;
     color: var(--color-1);
     font-weight: 500;
-    border: 2px solid var(--color-1);
+    border: none;
     border-radius: 7px;
     font-size: 1rem;
 }
@@ -379,7 +380,7 @@ section #adv{
     padding: 0.8rem;
     font-weight: 500;
     height: 10em;
-    border: 2px solid var(--color-1);
+    border: none;
     border-radius: 7px;
     resize: none;
     font-size: 1rem;
@@ -391,7 +392,7 @@ section #adv{
     font-size: 1rem;
     font-weight: 500;
     border-radius: 7px;
-    border: 2px solid var(--color-1);
+    border: none;
     padding: 0.8rem;
 }
 form #btn{
@@ -401,7 +402,7 @@ form #btn{
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
-    border: 2px solid var(--color-1);
+    border: none;
     border-radius: 7px;
     margin-top: 1.5rem;
 }
