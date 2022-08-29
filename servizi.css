@@ -266,11 +266,29 @@ section .cont1{
     width: 100vw;
     max-width: 42rem;
 }
-section .image{
+section #webdes{
+    height: auto;
+    width: 26vw;
+    min-width: 18vw;
+    background-image: url(imgs/design.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section #webdev{
     height: auto;
     width: 26vw;
     min-width: 18vw;
     background-image: url(imgs/webdesign.jpg);
+    background-position: -500px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section #adv{
+    height: auto;
+    width: 26vw;
+    min-width: 18vw;
+    background-image: url(imgs/adv.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
