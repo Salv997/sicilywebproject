@@ -541,6 +541,9 @@ a{
 .social .fa-brands{
     color: var(--color-1) !important;
 }
+p span{
+    font-weight: 600;
+}
 @media(max-width:60rem){
     nav{
         padding: 0.5rem 1.5rem;

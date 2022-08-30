@@ -440,6 +440,9 @@ form #btn{
 .fa-brands{
     color: var(--color-2) !important;
 }
+p span{
+    font-weight: 600;
+}
 
 @media(max-width:60rem){
     nav{
