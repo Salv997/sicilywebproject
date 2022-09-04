@@ -261,6 +261,7 @@ main{
 section{
     display: flex;
     gap: 4rem;
+    justify-content: center;
 }
 section .cont1{
     width: 100vw;
@@ -270,6 +271,7 @@ section #webdes{
     height: auto;
     width: 26vw;
     min-width: 18vw;
+    max-width: 18rem;
     background-image: url(imgs/design.jpg);
     background-position: center center;
     background-size: cover;
@@ -279,6 +281,7 @@ section #webdev{
     height: auto;
     width: 26vw;
     min-width: 18vw;
+    max-width: 18rem;
     background-image: url(imgs/webdesign.jpg);
     background-position: -500px center;
     background-size: cover;
@@ -288,6 +291,7 @@ section #adv{
     height: auto;
     width: 26vw;
     min-width: 18vw;
+    max-width: 18rem;
     background-image: url(imgs/adv.jpg);
     background-position: center center;
     background-size: cover;
@@ -440,9 +444,6 @@ form #btn{
 .fa-brands{
     color: var(--color-2) !important;
 }
-p span{
-    font-weight: 600;
-}
 
 @media(max-width:60rem){
     nav{
@@ -466,7 +467,6 @@ p span{
         display: flex;
         justify-content: left;
         padding-left: 1rem;
-        flex-direction: column;
         padding-bottom: 2rem;
     }
     main{

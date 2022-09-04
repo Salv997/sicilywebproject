@@ -215,12 +215,13 @@ main .rght{
     height: 80vh;
     width: 100%;
     background-image: url(imgs/webdesign.jpg);
-    background-position: -430px center;
+    background-position: -700px center;
     background-size: cover;
     background-repeat: no-repeat;
     position: -webkit-sticky;
     position: sticky;
     top: 6rem;
+    max-width: 20rem;
 }
 section{
     display: flex;
@@ -378,6 +379,7 @@ p span{
         display: flex;
         flex-direction: column;
         row-gap: 2rem;
+        justify-content: center;
     }
     section h1{
         font-size: 2rem;
