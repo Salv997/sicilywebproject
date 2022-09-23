@@ -300,9 +300,15 @@ form #btn{
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
-    border: none;
+    border: 3px solid var(--color-3);
     border-radius: 7px;
     margin-top: 1.5rem;
+    cursor: pointer;
+}
+form #btn:hover{
+    color: var(--color-3);
+    background-color: var(--color-2);
+    transition: 0.25s ease-in-out;
 }
 .about{
     display: flex;
@@ -338,11 +344,19 @@ form #btn{
 .fa-brands{
     color: var(--color-2) !important;
 }
+.fa-instagram{
+    color:var(--color-1) !important;
+    padding-right: 1.1rem;
+}
+#socialli{
+    display: flex;
+    align-items: center;
+}
 .btninvio{
     height: 3rem;
     width: 12rem;
     margin-top: 0.5rem;
-    border: none;
+    border: 3px solid var(--color-3);
     background-color: var(--color-3);
     color: var(--color-2);
     font-size: 1.1rem;
@@ -351,6 +365,11 @@ form #btn{
     border-radius: 10px;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
+}
+.btninvio:hover{
+    color: var(--color-3);
+    background-color: var(--color-2);
+    transition: 0.25s ease-in-out;
 }
 p span{
     font-weight: 600;
